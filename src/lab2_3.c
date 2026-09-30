@@ -34,7 +34,7 @@ int main(void) {
         printf("Prime numbers up to %d:\n", n);
         for (int i = 2; i <= n; i++) {
             if (is_prime(i)) {
-                printf(i);
+                printf("%d ", i);
             }
         }
         printf("\n");
