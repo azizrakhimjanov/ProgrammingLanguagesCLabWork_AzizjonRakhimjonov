@@ -31,8 +31,8 @@ int main(void) {
 
     // TODO: Check allocation success
     // If arr is NULL: print "Memory allocation failed." and return 1
-    if (arr = NULL){
-        printf("memory allocation failed.\n");
+    if (arr == NULL){
+        printf("Memory allocation failed.\n");
         return 1;
     }
 
@@ -41,7 +41,7 @@ int main(void) {
     //       If a value cannot be read: print "Invalid input.",
     //       free the array and return 1
 
-    printf("Enter %d integers (example if you entered '4' : 10 20 30 40):", n);
+    printf("Enter %d integers:", n);
 
     for(int i = 0; i < n; i++){
         if(scanf("%d", &arr[i]) != 1){
